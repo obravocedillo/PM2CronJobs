@@ -1,0 +1,24 @@
+{
+  "name": "pm2cronjobs",
+  "version": "1.0.0",
+  "description": "cron jobs in a project using pm2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "initialize-pm2": "node_modules/pm2/bin/pm2-runtime start ecosystem.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "agenda": "^5.0.0",
+    "body-parser": "^1.20.2",
+    "bullmq": "^4.2.0",
+    "cors": "^2.8.5",
+    "dotenv-flow": "^3.2.0",
+    "express": "^4.18.2",
+    "helmet": "^7.0.0",
+    "ioredis": "^5.3.2",
+    "node-cron": "^3.0.2",
+    "pm2": "^5.3.0"
+  }
+}
