@@ -31,7 +31,7 @@ const initializeConnections = async () => {
 
 initializeConnections().then(() => {
   app.get("/", (_req, res) => {
-    res.status(200).send('test');
+    res.status(200).send('Working');
   })
 });
 
